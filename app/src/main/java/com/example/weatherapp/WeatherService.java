@@ -10,7 +10,7 @@ import okhttp3.Response;
 
 public class WeatherService {
 
-    private static final String API_KEY = "de80acf72a1c70ad1fa7aaa12e6d6691";
+    private static final String API_KEY = "YOUR KEY";
 
     public interface WeatherCallback {
         void onSuccess(String temp, String icon, String wind);
@@ -54,3 +54,4 @@ public class WeatherService {
         });
     }
 }
+
